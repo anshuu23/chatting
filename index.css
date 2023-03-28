@@ -8,7 +8,7 @@
     width: 100vw;
     display: grid;
     grid-template-rows: 1fr 8fr 1fr;
-    background:linear-gradient(rgb(255, 255, 255),rgb(124, 123, 123))
+    background:linear-gradient(rgb(255, 255, 255),rgb(193, 189, 189))
 }
 
 .output{
