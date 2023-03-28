@@ -8,11 +8,13 @@ function namesend(){
   userdivv.style.display="none"
 }
 
+
 // const Data = require('./index.js');
 ws.addEventListener('message', function (event) {
 
   const messageDiv = document.querySelector('.output');
     messageDiv.innerHTML += ':'+ event.data+'<br>'
+    messageDiv.scrollTop = messageDiv.scrollHeight;
 });
 function buttonclicked(){
   
