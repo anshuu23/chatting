@@ -1,4 +1,4 @@
-const ws = new WebSocket('wss://chatttt.onrender.com:3009');
+const ws = new WebSocket('wss://chatttt.onrender.com:1000');
 
 function namesend(){
   let usernamee=document.querySelector('#name');
